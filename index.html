@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled QR Code Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="c">
+        <h1>Styled QR Code Generator</h1>
+        <h2><a href="https://www.linkedin.com/in/mohamed-ghoul-224982287/"> Mohamed Ghoul </a>productions all copyright are reserved 2024 &copy;</h2>
+        <div class="input-container">
+            <label for="qr-text">Text for QR code:</label>
+            <input type="text" id="qr-text" placeholder="Enter text">
+        </div>
+        <div class="input-container">
+            <label for="c1">Front color:</label>
+            <input type="color" id="c1" value="#000000">
+        </div>
+        <div class="input-container">
+            <label for="c2">Background color:</label>
+            <input type="color" id="c2" value="#ffffff">
+        </div>
+        <div class="input-container">
+            <button id="generate-btn">Generate QR Code</button>
+            <button id="btn">Download</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
