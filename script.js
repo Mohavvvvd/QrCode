@@ -40,7 +40,7 @@ function generateQRCode(canvas) {
 
     qrCode.append(canvas);
     document.getElementById("btn").addEventListener("click", function() {
-        qrCode.download({ name: "qr", extension: "svg" });
+        qrCode.download({ name: "qr", extension: "png" });
     });
     if (canvas.children.length > 0) {
         console.log('QR code generated successfully.');
